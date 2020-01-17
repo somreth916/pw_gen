@@ -1,0 +1,30 @@
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    border-style: outset;
+    border-radius: 15px;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff; 
+    padding: 30px;
+    width: 100%;
+    background-image: url(images/greek-vase.png);
+}
+
+h1 {
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+}
+
+#slider {
+    width: 100%
+}
