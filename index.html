@@ -28,12 +28,14 @@
                     <h4>Generate a Password</h4>
                     <hr />
                     <br />
-                    <input type="text" id="display">
+                    <input type="text" id="display" placeholder="Your Secure Password">
                     <br />
-                    <input type="range" min="0" max="128" name="slider" id="slider">
                     <br />
-                    <button onclick="generate()">Generate</button>
-                    <button onclick="">Copy to Clipboard</button>
+                    <h6>Choose Password Length:</h6>
+                    <input type="range" min="8" max="128" name="slider" id="slider">
+                    <br />
+                    <button id="button1" onclick="generate()">Generate Password</button>
+                    <button id="button2" onclick="">Copy to Clipboard</button>
                     <div id="length"></div>
                 </div>
 
